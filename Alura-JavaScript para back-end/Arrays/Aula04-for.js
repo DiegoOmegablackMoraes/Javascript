@@ -15,3 +15,14 @@ for (let i = 0; i < notas.length; i++) {
 let media = somaDasNotas / notas.length;
 
 console.log(media);
+
+somaDasNotas = 0;
+
+// Esse tal de For Of é bem interessante
+for (const nota of notas) {
+  somaDasNotas += nota;
+}
+
+media = somaDasNotas / notas.length;
+
+console.log(media);
