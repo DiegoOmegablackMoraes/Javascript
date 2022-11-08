@@ -44,4 +44,3 @@ const filha = cliente.dependentes.filter(
 
 // o Filter sempre retorna um array
 console.log(filha[0].nome);
-        
